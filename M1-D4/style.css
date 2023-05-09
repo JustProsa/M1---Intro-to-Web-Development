@@ -1,0 +1,233 @@
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Amazon Ember", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #eaeded;
+}
+
+main {
+  margin: 3.6rem 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+main section {
+  flex-grow: 1;
+}
+
+.logo-container {
+  background-color: #222f3e;
+}
+
+.logo-img {
+  width: 20rem;
+  padding: 1.8rem 0rem 1.8rem 2.4rem;
+}
+
+.navbar-container {
+  background-color: #354758;
+  margin-bottom: 3.6rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1.4rem;
+
+  list-style: none;
+  padding: 1.2rem 0 1.2rem 2.4rem;
+}
+
+.nav-link a {
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+.gift-card-container {
+  background-color: #f56600;
+  text-align: center;
+  margin: 0 2.4rem 3.6rem 2.4rem;
+}
+
+.gift-card {
+  text-decoration: none;
+}
+
+.gift-card p {
+  color: white;
+  font-size: 1.8rem;
+  padding: 1.2rem 0 1.2rem 0rem;
+}
+
+.gift-guides {
+  text-align: center;
+  background-image: url(assets/bg-image.png);
+  background-size: contain;
+  margin: 0 2.4rem 3.6rem 2.4rem;
+}
+
+.gift-guide-title {
+  font-size: 3.6rem;
+  color: white;
+  padding-top: 3.6rem;
+  padding-bottom: 2.4rem;
+}
+
+.gift-guide-link {
+  padding-bottom: 4.8rem;
+}
+
+.gift-guide-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.cards-menu {
+  background-color: white;
+}
+
+.section-text {
+  padding: 1.8rem;
+  display: flex;
+  gap: 1.8rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.section-link a {
+  color: #0e76a8;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.8rem;
+
+  margin: 1.8rem;
+}
+
+.card {
+  height: 38rem;
+  overflow: hidden;
+  text-align: center;
+
+  box-shadow: 0.8rem 0.8rem 1.4rem 0 rgba(34, 60, 80, 0.2);
+  border-radius: 1.4rem;
+}
+
+.card-img {
+  height: 100%;
+}
+
+.shop-menues {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.8rem;
+}
+
+.shop-menu {
+  background-color: white;
+}
+
+.shop-menu-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+
+  margin: 2.4rem;
+}
+
+.shop-menu-link {
+  display: block;
+  color: #0e76a8;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  margin: 2.4rem;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+
+  margin: 2.4rem;
+}
+
+.product {
+  position: relative;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.product-caption {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+}
+
+.new {
+  width: 4.4rem;
+  height: 4.4rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, -20%);
+}
+
+.gaming-img,
+.audio-img {
+  width: 100%;
+}
+
+.gaming-text,
+.audio-text {
+  justify-content: center;
+  padding: 0.8rem 1.8rem 1.8rem 1.8rem;
+}
+
+.totop-container {
+  background-color: #354758;
+  text-align: center;
+}
+
+.totop-link {
+  display: block;
+  padding: 1.2rem 0;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.totop-link:hover {
+  text-decoration: none;
+}
+
+.footer-logo {
+  background-color: #222f3e;
+  text-align: center;
+}
+
+.footer-img {
+  width: 30rem;
+  padding: 4.8rem 0;
+}

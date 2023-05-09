@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        margin-left: 4rem;
+        margin-top: 4rem;
+
+        /*esercizio 10*/
+        font-size: 0;
+      }
+      .container div {
+        width: 70px;
+        height: 60px;
+        border: 1px solid black;
+        position: relative;
+
+        /*esercizio 1*/
+        display: inline-block;
+
+        /*esercizio 10*/
+        font-size: 1rem;
+      }
+
+      /*esercizio 2*/
+      .container div:nth-child(even) {
+        border: 1px solid red;
+      }
+
+      /*esercizio 3*/
+      .container div:nth-child(odd) span:nth-child(even) {
+        color: green;
+      }
+
+      /*esercizio 4*/
+      .container div:nth-child(2) span:last-of-type {
+        color: blue;
+      }
+
+      /*esercizio 5*/
+      .container div:nth-child(6) span:not(:last-of-type) {
+        color: yellow;
+      }
+
+      /*esercizio 6*/
+      .container div span:first-child {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+
+        transform: translate(-50%, 100%);
+      }
+
+      /*esercizio 7*/
+      .container div span:nth-child(2) {
+        position: absolute;
+        top: 0;
+        left: 50%;
+
+        transform: translate(-50%, -100%);
+      }
+
+      /*esercizio 8*/
+      .container div:last-child span:last-of-type {
+        position: absolute;
+        top: 50%;
+        right: 0;
+
+        transform: translate(150%, -50%);
+      }
+
+      /*esercizio 9*/
+      .container div:first-child span:last-of-type {
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        transform: translate(-150%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+    </div>
+  </body>
+</html>

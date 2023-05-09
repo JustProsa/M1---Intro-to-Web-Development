@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+main {
+  width: 100rem;
+  margin: 0 auto;
+}
+
+.name {
+  color: #333;
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+.email {
+  color: #333;
+  font-size: 3.4rem;
+  text-align: center;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.pietro-img {
+  width: 50rem;
+  height: 50rem;
+  border-radius: 1.5rem;
+}
+
+.pietro-img:hover {
+  transform: scale(1.01);
+  transition: all 0.3s;
+  box-shadow: 0rem 0rem 1.6rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.hobbies,
+.bio {
+  color: #333;
+  font-size: 2.4rem;
+}
+
+.hobbies span {
+  color: #555;
+  font-weight: 500;
+}
+
+.links-container {
+  width: 100rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.github-link,
+.linkedin-link {
+  font-size: 2.4rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-self: center;
+
+  text-decoration: none;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #333;
+}
+
+.linkedin-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #0e76a8;
+}
+
+.github-link ion-icon,
+.github-link p {
+  color: #333;
+}
+
+.linkedin-link ion-icon,
+.linkedin-link p {
+  color: #0e76a8;
+}
+
+.lists-container {
+  width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills,
+.needed-skills {
+  color: #333;
+  font-size: 2.4rem;
+  justify-self: center;
+}
+
+.list-title {
+  font-weight: 500;
+}

@@ -1,0 +1,129 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  color: #333;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.logo-img {
+  width: 30rem;
+  margin-top: 3.6rem;
+  margin-bottom: 1.8rem;
+}
+
+.slogan-container {
+  background-color: #fff9db;
+  border-top: 2px solid #ffe066;
+
+  margin-bottom: 3.6rem;
+}
+
+.slogan {
+  margin-top: 0;
+  padding: 0.8rem 0;
+  font-size: 1.8rem;
+  color: #087f5b;
+}
+
+.slogan span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #087f5b;
+}
+
+.title {
+  text-align: center;
+  font-size: 3.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.focaccia-img-container {
+  width: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.focaccia-img {
+  width: 100%;
+  border-radius: 1.5rem;
+  box-shadow: 0.2rem 0.1rem 1.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.8rem;
+}
+
+.photo-credits {
+  color: #777;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0;
+}
+
+.featured-container {
+  border-left: 1px solid #ffe066;
+  padding-left: 1.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.featured-title {
+  margin: 0;
+  text-transform: uppercase;
+  color: #f76707;
+  font-size: 1.8rem;
+}
+
+.featured-link {
+  font-size: 1.8rem;
+  color: #4dabf7;
+  text-transform: capitalize;
+}
+
+.section-title {
+  border-bottom: 1px solid #7cd5d5;
+  font-size: 2.8rem;
+  padding-bottom: 1.8rem;
+  margin-bottom: 3.6rem;
+}
+
+.ingredients-list {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.list-title {
+  font-weight: bold;
+  margin-bottom: 1.8rem;
+}
+
+.method-list {
+  font-size: 1.8rem;
+}
+
+.method-title {
+  font-weight: bold;
+}
+
+.final-link {
+  font-size: 1.8rem;
+}
+
+.final-link a {
+  color: #4dabf7;
+}
