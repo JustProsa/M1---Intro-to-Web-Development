@@ -6,11 +6,13 @@ html {
 }
 
 body {
-  height: 100vh;
-
   display: flex;
   justify-content: center;
 }
+
+/* a {
+  display: inline-block;
+} */
 
 .container {
   width: 30%;
@@ -55,4 +57,60 @@ body {
 .container:hover .save {
   transform: translate(0%, 0%);
   /* display: block; */
+}
+
+.bottom-links {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 2%;
+  left: 5%;
+  transform: translate(0%, +200%);
+  transition: all 0.5s ease-in-out;
+}
+
+.container:hover .bottom-links {
+  transform: translate(0%, 0%);
+}
+
+.visit-link,
+.share-link,
+.menu-link {
+  text-decoration: none;
+}
+
+ion-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.visit {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0rem 1.2rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 3.6rem;
+}
+
+.share,
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+  background-color: white;
+  color: black;
+  font-size: 2.4rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
 }
