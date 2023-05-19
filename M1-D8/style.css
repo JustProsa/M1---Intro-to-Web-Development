@@ -223,11 +223,17 @@ main {
 
 .summary-link {
   text-decoration: none;
+  display: inline-block;
 }
 
 .article-summary {
   font-size: 1.8rem;
   line-height: 1.4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
 }
 
 .article-text-bottom {
@@ -565,6 +571,11 @@ main {
 .writer-info {
   font-size: 1.4rem;
   color: #777;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
 }
 
 .writer-info a {
