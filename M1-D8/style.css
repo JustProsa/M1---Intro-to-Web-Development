@@ -154,14 +154,14 @@ main {
 /*ARTICLE*/
 
 .article {
-  padding-top: 2.4rem;
-  padding-bottom: 3.6rem;
-  border-bottom: 1px solid rgba(119, 119, 119, 0.2);
-
   display: grid;
   grid-template-columns: 80fr 20fr;
   gap: 4.8rem;
   align-items: center;
+
+  padding-top: 2.4rem;
+  padding-bottom: 3.6rem;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.2);
 }
 
 .article-img img {
@@ -212,8 +212,17 @@ main {
   padding-bottom: 2.4rem;
 }
 
+.title-link {
+  text-decoration: none;
+}
+
+.summary-link {
+  text-decoration: none;
+}
+
 .article-summary {
   font-size: 1.8rem;
+  line-height: 1.4;
 }
 
 .article-text-bottom {
